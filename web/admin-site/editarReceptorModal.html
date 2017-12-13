@@ -1,0 +1,73 @@
+<form id="receptor-form" method="post">
+    <fieldset>
+      <div class="form-group">
+          <label>Selecciona un Receptor: </label>
+          <select id="lista-receptores" class="form-control" name="sexo" required>
+                
+          </select>
+          
+      </div>
+      <div class="form-group">
+        <label for="tiempoElaboracion">Nombre</label>
+        <input type="text" class="form-control" id="nombre-receptor" name="nombre" required>
+      </div>
+      <div class="form-group">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 first-last-name">
+              <label for="tiempoElaboracion">Apellido Paterno</label>
+              <input type="text" class="form-control" id="apellidoP-receptor" name="apellidoP" required>
+            </div>
+            <div class="col-md-6 second-last-name">
+              <label for="tiempoElaboracion">Apellido Materno</label>
+              <input type="text" class="form-control" id="apellidoM-receptor" name="apellidoM" required>
+            </div>
+          </div>
+        </div>
+        <div class="form-group date-time">
+          <label for="exampleInputPassword1">Fecha de Nacimiento</label>
+          <input type="date" name="nacimiento" id="nacimiento-receptor" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="claveProyecto">Sexo</label><br>
+          <div class="row">
+            <div class="col-md-6">
+              <select id="sexo-receptor" class="form-control" name="sexo" required>
+                <option value="F">Femenino</option>
+                <option value="M">Masculino</option>
+              </select>
+            </div>
+            <div class="col-md-6"><input type="text" class="form-control type-blood" placeholder="Escoge un tipo"></div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="claveProyecto">Tipo de Sangre</label><br>
+          <div class="row">
+            <div class="col-md-6">
+              <select id="sangre1-receptor" class="form-control" name="sangre1" required>
+                <option value="hide">Signo</option>
+                <option value="+"> + </option>
+                <option value="-"> - </option>
+              </select>
+            </div>
+            <div class="col-md-6"><input type="text" class="form-control type-blood" id="sangre2-receptor" name="sangre2" placeholder="Ingresa un tipo: ej. A"></div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="direccion">Diagnostico</label>
+          <input type="text" id="diagnostico-receptor" name="diagnostico" class="form-control" placeholder="Descripción">
+        </div>
+        <div class="form-group">
+          <label for="fechaInicio">Ubicación</label>
+          <input type="text" id="ubicacion-receptor" name="ubicacion" class="form-control" placeholder="lugar donde se encuentra">
+        </div>
+        <div class="btn-section text-center">
+          
+          <div class="btn-section">
+              <button id="receptor-submit" style="font-size: medium; margin: 1em;" class="text-center">Guardar</button>
+              <button id="receptor-submit" style="font-size: medium; margin: 1em; color: red;" class="text-center">Eliminar Registro</button>
+          </div>
+        </div>
+    </fieldset>
+</form>  

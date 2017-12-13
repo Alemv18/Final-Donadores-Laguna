@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Donadores Laguna</title>
+    <!-- Add company logo -->
+    <link rel="shortcut icon" type="image/x-icon" href="./img/donadores.png"/>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+    <!-- Custom styles-->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/style.min.css" rel="stylesheet">
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+  </head>
+  <body id="page-top" class="donor-bg">
+    <div class="home-page">
+     <a href="index.jsp"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+    </div>
+    
+     <div class="container">
+                <div class="row text-center">
+                  <div class="col-md-12 donor-title text-center">Registro de<div class="donor-dt">Donador</div></div>
+                </div>
+            </div>
+      <div class="form-section">
+        <form id="project-form" action="registroDonador" method="post">
+            <fieldset>
+              <div class="form-group">
+                <label for="tiempoElaboracion">Nombre</label>
+                <input type="text" class="form-control" name="nombre" required>
+              </div>
+              <div class="form-group">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6 first-last-name">
+                      <label for="tiempoElaboracion">Apellido Paterno</label>
+                      <input type="text" class="form-control" name="apellidoP" required>
+                    </div>
+                    <div class="col-md-6 second-last-name">
+                      <label for="tiempoElaboracion">Apellido Materno</label>
+                      <input type="text" class="form-control" name="apellidoM" required>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group date-time">
+                  <label for="exampleInputPassword1">Fecha de Nacimiento</label>
+                  <input type="date" name="nacimiento" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="claveProyecto">Sexo</label><br>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <select id="gender" class="form-control" name="sexo" required>
+                        <option value="F">Femenino</option>
+                        <option value="M">Masculino</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="claveProyecto">Tipo de Sangre</label><br>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <select id="blood-type" class="form-control" name="sangre1" required>
+                        <option value="hide">Signo</option>
+                        <option value="+"> + </option>
+                        <option value="-"> - </option>
+                      </select>
+                    </div>
+                    <div class="col-md-6"><input type="text" class="form-control type-blood" name="sangre2" placeholder="Ingresa un tipo: ej. A"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="tiempoElaboracion">Email</label>
+                  <input type="email" name="email" class="form-control" placeholder="example@gmail.com">
+                </div>
+                <div class="form-group">
+                  <label for="tiempoElaboracion">Teléfono</label>
+                  <input type="text" name="telefono" class="form-control" placeholder="+52 1">
+                </div>
+                <div class="form-group">
+                  <label for="direccion">Dirección</label>
+                  <input type="text" name="direccion" class="form-control" placeholder="Ej.Calle Margaritas #23">
+                </div>
+                <div class="form-group">
+                  <label for="fechaInicio">Código Postal</label>
+                  <input type="text" name="cp" class="form-control" placeholder="27000">
+                </div>
+                <div class="btn-section text-center">
+                  <button id="project-submit" class="text-center" type="submit">Enviar</button>
+                  <div class="btn-section"></div>
+                </div>
+            </fieldset>
+        </form>
+            <div class="row">
+              <div class="container">
+                <div class="col-md-12 text-center quote-txt">
+                  No hay nada mejor que la satisfacción de ayudar.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Bootstrap core JavaScript -->
+          <script src="vendor/jquery/jquery.min.js"></script>
+          <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+          <!-- Plugin JavaScript -->
+          <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+          <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+          <!-- Custom scripts-->
+          <script src="js/index.js"></script>
+          <script src="js/index.min.js"></script>
+          <!-- Parallax section -->
+          <script src="parallax/parallax.js"></script>
+        </body>
+      </html>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/alemv18/NetBeansProjects/Donadores-laguna-tec-master%202/src/java/data/UserDAO.java</file>
+            <file>file:/Users/alemv18/NetBeansProjects/Donadores-laguna-tec-master%202/src/java/data/DBConnection.java</file>
+            <file>file:/Users/alemv18/NetBeansProjects/Donadores-laguna-tec-master%202/web/receptor-register.html</file>
+            <file>file:/Users/alemv18/NetBeansProjects/Donadores-laguna-tec-master%202/src/java/servlets/RegistroReceptorServlet.java</file>
+            <file>file:/Users/alemv18/NetBeansProjects/Donadores-laguna-tec-master%202/web/index.jsp</file>
+            <file>file:/Users/alemv18/NetBeansProjects/Donadores-laguna-tec-master%202/web/register-as.html</file>
+            <file>file:/Users/alemv18/NetBeansProjects/Donadores-laguna-tec-master%202/src/java/data/DonadorDAO.java</file>
+            <file>file:/Users/alemv18/NetBeansProjects/Donadores-laguna-tec-master%202/src/java/data/DonacionDAO.java</file>
+            <file>file:/Users/alemv18/NetBeansProjects/Donadores-laguna-tec-master%202/src/java/models/Receptor.java</file>
+            <file>file:/Users/alemv18/NetBeansProjects/Donadores-laguna-tec-master%202/src/java/servlets/Receptores.java</file>
+            <file>file:/Users/alemv18/NetBeansProjects/Donadores-laguna-tec-master%202/src/java/servlets/RegistroDonadorServlet.java</file>
+            <file>file:/Users/alemv18/NetBeansProjects/Donadores-laguna-tec-master%202/src/java/models/Donador.java</file>
+            <file>file:/Users/alemv18/NetBeansProjects/Donadores-laguna-tec-master%202/src/java/servlets/login.java</file>
+            <file>file:/Users/alemv18/NetBeansProjects/Donadores-laguna-tec-master%202/src/java/servlets/Donaciones.java</file>
+            <file>file:/Users/alemv18/NetBeansProjects/Donadores-laguna-tec-master%202/web/donor-register.html</file>
+            <file>file:/Users/alemv18/NetBeansProjects/Donadores-laguna-tec-master%202/src/java/servlets/Donadores.java</file>
+            <file>file:/Users/alemv18/NetBeansProjects/Donadores-laguna-tec-master%202/web/donor-profile.html</file>
+            <file>file:/Users/alemv18/NetBeansProjects/Donadores-laguna-tec-master%202/src/java/models/Donacion.java</file>
+            <file>file:/Users/alemv18/NetBeansProjects/Donadores-laguna-tec-master%202/src/java/data/ReceptorDAO.java</file>
+            <file>file:/Users/alemv18/NetBeansProjects/Donadores-laguna-tec-master%202/web/css/style.min.css</file>
+        </group>
+    </open-files>
+</project-private>

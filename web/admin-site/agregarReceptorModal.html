@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<form id="receptor-form" method="post">
+                                <fieldset>
+                                  <div class="form-group">
+                                    <label for="tiempoElaboracion">Nombre</label>
+                                    <input type="text" class="form-control" name="nombre" required>
+                                  </div>
+                                  <div class="form-group">
+                                    <div class="container">
+                                      <div class="row">
+                                        <div class="col-md-6 first-last-name">
+                                          <label for="tiempoElaboracion">Apellido Paterno</label>
+                                          <input type="text" class="form-control" name="apellidoP" required>
+                                        </div>
+                                        <div class="col-md-6 second-last-name">
+                                          <label for="tiempoElaboracion">Apellido Materno</label>
+                                          <input type="text" class="form-control" name="apellidoM" required>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="form-group date-time">
+                                      <label for="exampleInputPassword1">Fecha de Nacimiento</label>
+                                      <input type="date" name="nacimiento" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="claveProyecto">Sexo</label><br>
+                                      <div class="row">
+                                        <div class="col-md-6">
+                                          <select id="gender" class="form-control" name="sexo" required>
+                                            <option value="F">Femenino</option>
+                                            <option value="M">Masculino</option>
+                                          </select>
+                                        </div>
+                                        <div class="col-md-6"><input type="text" class="form-control type-blood" placeholder="Escoge un tipo"></div>
+                                      </div>
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="claveProyecto">Tipo de Sangre</label><br>
+                                      <div class="row">
+                                        <div class="col-md-6">
+                                          <select id="blood-type" class="form-control" name="sangre1" required>
+                                            <option value="hide">Signo</option>
+                                            <option value="+"> + </option>
+                                            <option value="-"> - </option>
+                                          </select>
+                                        </div>
+                                        <div class="col-md-6"><input type="text" class="form-control type-blood" name="sangre2" placeholder="Ingresa un tipo: ej. A"></div>
+                                      </div>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                      <label for="direccion">Diagnostico</label>
+                                      <input type="text" name="diagnostico" class="form-control" placeholder="Descripción">
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="fechaInicio">Ubicación</label>
+                                      <input type="text" name="ubicacion" class="form-control" placeholder="lugar donde se encuentra">
+                                    </div>
+                                    <div class="btn-section text-center">
+                                      <button id="receptor-submit" style="font-size: medium;" class="text-center">Agregar</button>
+                                      <div class="btn-section"></div>
+                                    </div>
+                                </fieldset>
+                            </form>  
